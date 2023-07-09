@@ -3,7 +3,7 @@
 
 ## Dependencies
 ```
-pip install ogb
+pip install ogb==1.3.6
 ```
 
 ## ogbl-wikikg2
