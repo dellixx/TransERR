@@ -25,6 +25,7 @@ PyTorch >= 1.0
 
 ### 📜 Hyperparameters
 
+We list the best hyperparameters setting of TransERR on 10 benchmark datasets. $d$, $\epsilon$, $n$, $\alpha$ and $\gamma$ denote the embedding size, the learning rate, the negative sample, the self-adversarial sampling temperature and fixed margin, respectively.
 
 | Benchmark        | embedding dimension $d$ | learning rate $\epsilon$ | negative sample $n$ | $\alpha$ | $\gamma$ |
 |------------------|------------------------|--------------------------|--------------------|---------|----------|
