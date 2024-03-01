@@ -15,3 +15,9 @@ python run.py --data_path data/wn18rr --dataset wn18rr --do_train --cuda --do_va
 
 # ==============================TransERR-FB15k===============================
 # python run.py --data_path data/FB15k --dataset FB15k --do_train --cuda --do_valid --do_test  --model TransERR -n 256 -b 1024 -d 1500 -g 26 -a 1 -adv -tr -lr 0.0001 --wur 0.5 0.8 --max_steps 300000 --cpu_num 8 --test_batch_size 32 --regularization 0.35
+
+# ===============================TransERR-Sports=============================
+# python run.py --data_path data/sports --dataset sports --do_train --cuda --do_valid --do_test  --model TransERR -n 128 -b 1024 -d 200 -g 10 -a 0.5 -adv -tr -lr 0.001 --max_steps 20000 --cpu_num 8 --test_batch_size 8 --regularization 0.2
+
+# =============================TransERR-Localtion==============================
+# python run.py --data_path data/localtion --dataset localtion --do_train --cuda --do_valid --do_test  --model TransERR -n 128 -b 1024 -d 200 -g 10 -a 0.5 -adv -tr -lr 0.001 --max_steps 20000 --cpu_num 8 --test_batch_size 8 --regularization 0.2

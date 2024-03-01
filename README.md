@@ -1,5 +1,5 @@
 <h2 align="center">
-TransERR: Translation-based Knowledge Graph Completion via Efficient Relation Rotation
+TransERR: Translation-based Knowledge Graph Embedding via Efficient Relation Rotation
 </h2>
 
 <p align="center">
@@ -9,7 +9,7 @@ TransERR: Translation-based Knowledge Graph Completion via Efficient Relation Ro
 
 
 <p align="center">
-The code of TransERR (Under review)
+The code of TransERR accepted by the <strong>LREC-COLING 2024</strong>.
 </p>
 
 
