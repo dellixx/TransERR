@@ -3,6 +3,8 @@ TransERR: Translation-based Knowledge Graph Embedding via Efficient Relation Rot
 </h2>
 
 <p align="center">
+  <img alt="Static Badge" src="https://img.shields.io/badge/LREC--COLING-2024-orange">
+   <a href = 'https://arxiv.org/pdf/2306.14580.pdf' target='_blank'><img alt="Static Badge" src="https://img.shields.io/badge/arxiv-red"></a>
   <img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg">
   <img src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?e&logo=PyTorch&logoColor=white">
 </p>
