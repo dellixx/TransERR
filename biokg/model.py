@@ -163,7 +163,7 @@ class KGEModel(nn.Module):
             'RotatE': self.RotatE,
             'PairRE': self.PairRE,
             'TripleRE': self.TripleRE,
-            'TransQR': self.TransQR,
+            'TransERR': self.TransERR,
         }
 
         if self.model_name in model_func:
@@ -262,7 +262,7 @@ class KGEModel(nn.Module):
         return score
 
 
-    def TransQR(self, head, relation, tail, mode):
+    def TransERR(self, head, relation, tail, mode):
         wh, r, wt = torch.chunk(relation, 3, dim=2)
         wh = self.q_norm(wh)
         wt = self.q_norm(wt)
