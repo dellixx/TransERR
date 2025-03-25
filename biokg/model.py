@@ -58,7 +58,7 @@ class KGEModel(nn.Module):
         )
 
         #Do not forget to modify this line when you add a new model in the "forward" function
-        if model_name not in ['TransE', 'DistMult', 'ComplEx', 'RotatE', 'PairRE', 'TripleRE', 'TransQR']:
+        if model_name not in ['TransE', 'DistMult', 'ComplEx', 'RotatE', 'PairRE', 'TripleRE', 'TransERR']:
             raise ValueError('model %s not supported' % model_name)
 
         if model_name == 'RotatE' and (not double_entity_embedding or double_relation_embedding):
@@ -72,8 +72,8 @@ class KGEModel(nn.Module):
 
         if model_name == 'TripleRE' and (not triple_relation_embedding):
             raise ValueError('TripleRE should use --triple_relation_embedding')
-        if model_name == 'TransQR' and (not triple_relation_embedding):
-            raise ValueError('TransQR should use --triple_relation_embedding')
+        if model_name == 'TransERR' and (not triple_relation_embedding):
+            raise ValueError('TransERR should use --triple_relation_embedding')
 
         self.evaluator = evaluator
 
